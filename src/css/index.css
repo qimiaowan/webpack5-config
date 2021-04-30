@@ -1,0 +1,116 @@
+html {
+  color: #333;
+}
+.ellips {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+}
+header {
+  position: relative;
+  height: 4.45rem;
+}
+.pos-head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4.45rem;
+  line-height: 4.45rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-align: center;
+  background: #fff;
+  z-index: 9;
+}
+.arrow-l {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1rem;
+  height: 2rem;
+  left: 1.5rem;
+  background: url(../imgs/icon_箭头_黑@2x.png) no-repeat;
+  background-size: cover;
+}
+.wrap {
+  margin: 0 1.6rem;
+}
+.module {
+  background: #fff;
+  border-radius: 4px;
+  margin-top: 1.2rem;
+  padding-bottom: 3rem;
+}
+.head {
+  padding: 1.6rem 1.2rem;
+  height: 3.6rem;
+  line-height:3.6rem;
+  box-sizing: content-box;
+}
+.head img {
+  width: 3.6rem;
+  vertical-align: middle;
+}
+.head span {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 20rem;
+  margin-left: .6rem;
+  
+}
+.day {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #999999;
+}
+.chart-num {
+  width: 100%;
+  color: #333A4D;
+  font-weight: bold;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chart-num span {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #333;
+}
+.chart-high {
+  margin: 0 1.2rem;
+}
+.table {
+  background: #fff;
+}
+.data {
+  color: #5A616A;
+  font-size: 1.4rem;
+  padding: 0 1.2rem;
+}
+.data-head, .data-item {
+  display: flex;
+  height: 3.6rem;
+  align-items: center;
+  background: #ECECEC;
+}
+.data-l {
+  flex: 0 0 22.1rem;
+  margin-left: 1.6rem;
+}
+.data-r {
+  flex: 1;
+}
+.data-item:nth-of-type(odd) {
+  background: #fff;
+}
+.data-item:nth-of-type(even) {
+  background: #F9F9F9;
+
+}

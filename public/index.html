@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数据统计</title>
+</head>
+<body>
+  <div class="container">
+    <!-- <header>
+      <div class="pos-head">
+        <div class="arrow-l"></div>
+        数据统计
+      </div>
+    </header> -->
+    <main>
+      <div class="wrap">
+        <div class="module">
+          <div class="head clearfix">
+            <div class="float_l">
+              <img src="../src/imgs/接件量@2x.png" alt="">
+              <span class="ellips">登记办理接件量</span>
+            </div>
+            <div class="float_r day">今日</div>
+          </div>
+          <div class="chart-num"><span>全市总量：</span><span id="all_num"></span></div>
+            <div class="chart-high">
+              <canvas style="width: 100%;" id="chart-high">
+              </canvas>
+            </div>
+        </div>
+        <div class="module">
+          <div class="head clearfix">
+            <div class="float_l">
+              <img src="../src/imgs/证明查询量@2x.png" alt="">
+              <span class="ellips">房产证明查询量</span>
+            </div>
+            <div class="float_r day">今日</div>
+          </div>
+          <div class="data">
+            <div class="data-head">
+              <div class="data-l">类型</div>
+              <div class="data-r">数量</div>
+            </div>
+            <div id="d-wrap">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script type="text-html" id="table-item">
+    <div class="data-item">
+      <div class="data-l">{{name}}</div>
+      <div class="data-r">{{value}}</div>
+    </div>
+  </script>
+</body>
+</html>
